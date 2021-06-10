@@ -1,10 +1,9 @@
-// feature 1
 import React from "react";
 import data from "./data.json";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
 import Cart from "./components/Cart";
-import store from "./store";
+import store from './store';
 import { Provider } from "react-redux";
 
 class App extends React.Component {
